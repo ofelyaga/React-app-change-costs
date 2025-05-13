@@ -45,6 +45,7 @@ function CostForm(props){
                 </div>
                 <div className='new-cost__actions'>
                     <button>Добавить расход</button>
+                    <button onClick = {props.onCancel}>Отмена</button>
                 </div>
             </div>
         </form>

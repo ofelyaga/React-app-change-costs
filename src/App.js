@@ -5,19 +5,19 @@ import React, { useState } from "react";
 const INITIAL_COSTS =[
   {
     id:'0',
-    date: new Date(2025, 2, 3),
+    date: new Date(2021, 2, 3),
     description:"Холодильник",
     amount: 20000
   },
   {
     id:'2',
-    date: new Date(2025, 6, 3),
+    date: new Date(2021, 6, 3),
     description:"Джинсы",
     amount: 10000
   },
   {
     id:'9',
-    date: new Date(2025, 2, 3),
+    date: new Date(2021, 2, 3),
     description:"Монитор",
     amount: 25000
   }
