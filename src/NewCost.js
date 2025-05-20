@@ -1,6 +1,7 @@
 import { useState } from "react";
 import CostForm from "./CostForm";
 import './newCost.css'
+
 function NewCost(props){
     const [isFormVisible, setIsFormVisible]=useState(false)
     const saveCostData = (inputCostData)=>{
